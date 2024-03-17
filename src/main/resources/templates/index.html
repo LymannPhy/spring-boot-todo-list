@@ -253,16 +253,17 @@
 </nav>
 <!-- Navbar -->
 <div class="container" style="margin-top: 20px">
+    <a href="/todo"><button type="button" class="btn btn-success" data-mdb-ripple-init>Display Todo-List</button></a>
+    <br><br>
     <form action="/todo/search" method="get">
         <input type="text" name="task" placeholder="Search by Task">
         <select name="isDone">
-            <option value="">--Select Done Status--</option>
+            <option value="">--Select Status--</option>
             <option value="true">Done</option>
             <option value="false">Not Done</option>
         </select>
         <button type="submit">Search</button>
-    </form><br><br>
-    <a href="/todo"><button type="button" class="btn btn-success" data-mdb-ripple-init>Display the data</button></a>
+    </form>
     <div class="row" style="margin-top: 20px">
         <div class="col-md-12">
             <div class="table-responsive">

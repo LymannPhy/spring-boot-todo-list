@@ -13,11 +13,11 @@ import java.util.List;
 public class TodoListDataSource {
     private List<Todo> todos = new ArrayList<>();
     public TodoListDataSource(){
-        todos.add(new Todo(1,"Run","Run to riverside",false, LocalDate.now()));
-        todos.add(new Todo(2,"Study Sch","Go to CSTAD",false, LocalDate.now()));
-        todos.add(new Todo(3,"Study Uni","Go to SETEC",false, LocalDate.now()));
-        todos.add(new Todo(4,"Eat Dinner","With Honey",false, LocalDate.now()));
-        todos.add(new Todo(5,"Assignment NextJS","CSTAD",true, LocalDate.now()));
+        todos.add(new Todo(1, "Grocery Shopping", "Buy groceries for the week", false, LocalDate.now()));
+        todos.add(new Todo(2, "Gym", "Workout for an hour", false, LocalDate.now()));
+        todos.add(new Todo(3, "Read", "Read a chapter of a book", false, LocalDate.now()));
+        todos.add(new Todo(4, "Call Mom", "Check up on Mom", false, LocalDate.now()));
+        todos.add(new Todo(5, "Write Report", "Finish quarterly report for work", false, LocalDate.now()));
     }
     //Todo(id, task, description, isDone, createdAt)
 
